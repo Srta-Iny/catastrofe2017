@@ -1,0 +1,42 @@
+/*header*/
+header{
+	a{
+		color: $titulos;
+	}
+	ul li a{
+		color:$titulos;
+	}
+}
+/*Primera seccion*/
+ 
+#principal{
+	@include imgFondo( url(../img/banner01.jpg), no-repeat, cover, center, 90vh);
+	color:$white;
+	.title1{
+		position: relative;
+		right:0;
+		left: 0;
+		top: 50%;
+		transform: translateY(50%);
+	}
+}
+/*Seccion tarjetas*/
+
+#donaciones{
+	margin-top: 2%;
+	.card-action{
+		a{
+			color: #b71c1c; 
+		}
+	}
+	.card-content{
+	height: 200px; 
+	}
+}
+@media (max-width:992px) {
+	#principal{
+		h4{
+			display: none;
+		}
+	}
+}

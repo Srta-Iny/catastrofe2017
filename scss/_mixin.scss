@@ -1,0 +1,7 @@
+@mixin imgFondo($img, $bRepeat, $bSize, $bpos, $alto){
+	background-image: $img;
+	background-repeat: $bRepeat;
+	background-size: $bSize;
+	background-position: $bpos;
+	height: $alto;
+}
