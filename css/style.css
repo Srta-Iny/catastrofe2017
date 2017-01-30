@@ -6373,7 +6373,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em; } }
 /*header*/
 header a {
-  color: #6f6d6d !important; }
+  color: #b71c1c !important; }
 header ul li a {
   color: #6f6d6d !important; }
 
@@ -6384,7 +6384,7 @@ header ul li a {
   background-size: cover;
   background-position: center;
   height: 90vh;
-  color: #fff; }
+  color: #fff !important; }
   #principal .title1 {
     position: relative;
     right: 0;
@@ -6393,12 +6393,17 @@ header ul li a {
     transform: translateY(50%); }
 
 /*Seccion tarjetas*/
-#donaciones {
+#voluntarios {
   margin-top: 2%; }
-  #donaciones .card-action a {
-    color: #b71c1c; }
-  #donaciones .card-content {
+  #voluntarios .card-action a {
+    color: #b71c1c !important; }
+  #voluntarios .card-content {
     height: 200px; }
+
+footer {
+  background-color: #b71c1c !important;
+  color: #fff !important;
+  height: 100px; }
 
 @media (max-width: 992px) {
   #principal h4 {

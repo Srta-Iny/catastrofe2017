@@ -1,7 +1,7 @@
 /*header*/
 header{
 	a{
-		color: $titulos;
+		color: $rojo;
 	}
 	ul li a{
 		color:$titulos;
@@ -22,16 +22,22 @@ header{
 }
 /*Seccion tarjetas*/
 
-#donaciones{
+#voluntarios{
 	margin-top: 2%;
 	.card-action{
 		a{
-			color: #b71c1c; 
+			color: $rojo; 
 		}
 	}
 	.card-content{
-	height: 200px; 
+		height: 200px; 
 	}
+}
+
+footer{
+	background-color:$rojo;
+	color: $white;
+	height: 100px;
 }
 @media (max-width:992px) {
 	#principal{
